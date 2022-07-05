@@ -29,6 +29,7 @@
 
 .favImgContainer1, .favImgContainer2 {
     width: 40%;
+    z-index: 20;
 } 
 
 .favImgContainer1 {
@@ -44,6 +45,7 @@
     flex-direction: column;
     width: 40%;
     height: 100%;
+    z-index: 20;
 } 
 
 .favTextContainer1 {
