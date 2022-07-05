@@ -9,59 +9,151 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="https://kit.fontawesome.com/d877b183e7.js" crossorigin="anonymous"></script>
-    <title>Contact</title>
+    <title>Home</title>
 </head>
 <body>
-    <!-- Navbar -->
-   <nav class="navBar navBarContact">
+    <a href="#mainContent" class="skip-link">Skip to main content.</a>
+
+   <!-- Navbar -->
+   <nav class="navBar navBarHome">
         <ul>
-            <li><a href="./index.html">HOME</a></li>
+            <li class="navHome"><a href="./index.html">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><h2><a href="#" class="navWillow">WILLOW</a></h2></li>
-            <li><a href="./blog.html">BLOG</a></li>
-            <li class="navHome"><a href="./contact.html">CONTACT</a></li>
+            <li><a href="./blog.html" target="_blank" >BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
         </ul>
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
         </div>
-    </nav>  
-    <header class="contactHeader">
+    </nav>    
+    <!-- Beginning of Header -->
+    <header>
         <div class="wrapper">
-            <div class="contactTextContainer">
-                <H1>CONTACT ME</H1>
+            <div class="headerContent">
+                <div class="headerTitle">
+                    <img src="./assets/circle-text.png" alt="circle text of daily musings of">
+                    <h1>WILLOW</h1>
+                </div>
+                <div class="headerImgContainer">
+                    <img src="./assets/home-image-1.jpg" alt="Women looking with nature background">
+                </div>
             </div>
         </div>
     </header>
 
-    <main class="contactPage">
-        <div class="wrapper">
-            <div class="contactInfo">
-                <div class="contactIcons">
-                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
-                    <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
-                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+    <main>
+        <section class="about">
+            <div class="wrapper">
+                    <h2>WHO'S WILLOW?</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nisi pariatur voluptas! Laudantium eveniet ad dignissimos ab numquam voluptatibus. Consequatur sint dolores recusandae similique nisi modi, illum commodi quam voluptatum labore hic eum debitis ex est possimus deserunt facere iure minus excepturi sed at nesciunt, fugit totam nihil! Sunt, dolores.</p>
+                    <button>FIND OUT MORE</button>
+            </div>
+        </section>
+
+        <section class="favThings">
+            <div class="wrapper">
+                <div class="favContainer1">
+                    <div class="favImgContainer1">
+                        <img src="./assets/home-image-2.jpg" alt="bridger with waterfall in the background">
+                    </div>
+                    <div class="favTextContainer1">
+                        <h3>FAVOURITE THINGS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum? Voluptate, eaque sed! Aut et maiores quasi modi, veniam quam?</p>
+                        <a href="#" class="button">READ MORE</a>
+                    </div>
                 </div>
-                <p class="emailAddress">info@email.com</p>
-                <p>123-456-7890<br>123 Queen Street West, Unit 10<br>Toronto, Ontario<br>M5V2D5</p>
+                <div class="favContainer2">
+                    <div class="favTextContainer2">
+                        <h3>BUCKET LIST</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, libero! Molestiae vitae eius cum molestias?</p>
+                        <a href="#" class="button">READ MORE</a>
+                    </div>
+                    <div class="favImgContainer2">
+                        <img src="./assets/home-image-3.jpg" alt="flower">
+                    </div>
+                </div>
             </div>
-            <div class="contactForm">
-                <form action="">
-                    <label for="name" class="sr-only">Name</label>
-                    <input type="text" id="name" placeholder="Name" class="contactName"><!-- no whitespace
-                    --><label for="email" class="sr-only">Email</label><!-- no whitespace
-                    --><input type="email" id="email" placeholder="Email address"><!-- no whitespace
-                    --><textarea id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                    <button type="submit" class="button">SUBMIT</button>
+            <div class="greenBox"></div>
+            <div class="darkGreenBox"></div>
+        </section>
+
+        <section class="journey">
+            <div class="wrapper">
+                <div class="journeyImgContainer">
+                    <img src="./assets/home-image-4.jpg" alt="person in nature with yellow jacket">
+                </div>
+                <div class="journeyTextContainer">
+                    <h2>Willow's Journey</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi debitis repudiandae doloribus impedit, corrupti perferendis autem consectetur sint in omnis distinctio corporis molestias ipsum porro aspernatur mollitia! Dolorem a quos voluptatibus itaque et quae saepe magni quaerat alias quia.</p>
+                    <a href="#" class="button">FIND OUT MORE</a>
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section class="flowerField">
+            <img src="./assets/home-image-5.jpg" alt="flower field with house in the background">
+        </section>
+
+        <section class="gallery">
+            <div class="wrapper">
+                <div class="galleryContainer1 galleryContainer">
+                    <img src="./assets/home-image-6.jpg" alt="street with forest on the sides">
+                </div>
+                <div class="galleryContainer2 galleryContainer">
+                    <img src="./assets/home-image-7.jpg" alt="fruits in a bowl on a table">
+                </div>
+                <div class="galleryContainer3 galleryContainer">
+                    <img src="./assets/home-image-8.jpg" alt="staircase">
+                </div>
+            </div>
+        </section>
+
+        <section class="summary">
+            <div class="wrapper">
+                <div class="summaryPhotos summaryContainers">
+                    <div class="summaryImgContainer1 summaryImgContainer">
+                        <i class="fa-solid fa-image"></i>
+                    </div>
+                    <div class="summaryTextContainer1 ">
+                        <h3>PHOTOS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste totam ipsa debitis cupiditate error fugiat sit, voluptatibus velit placeat voluptas?</p>
+                    </div>
+                    <div class="summaryImgContainer2 summaryImgContainer">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="summaryTextContainer2">
+                        <h3>ABOUT</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quidem, culpa illum modi itaque ipsa debitis quos illo dolorum eius.</p>
+                    </div>
+                </div>
+                <div class="summaryBlog summaryContainers">
+                    <div class="summaryImgContainer3 summaryImgContainer">
+                        <i class="fa-solid fa-display"></i>
+                    </div>
+                    <div class="summaryTextContainer3">
+                        <H3>BLOG</H3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro dolores fugiat repellendus necessitatibus voluptates possimus deleniti optio explicabo mollitia voluptate.</p>
+                    </div>
+                    <div class="summaryImgContainer4 summaryImgContainer">
+                        <i class="fa-solid fa-phone-flip"></i>
+                    </div>
+                    <div class="summaryTextContainer4">
+                        <h3>CONTACT ME</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum omnis qui et doloremque quod dicta doloribus sed voluptate expedita.</P>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
     <footer>
         <div class="wrapper">
             <p>Copyright © 2018 HackerYou</p>
         </div>
     </footer>
+    
 </body>
 </html>
