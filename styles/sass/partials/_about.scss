@@ -1,0 +1,25 @@
+.about {
+    background-color: $whiteShade;
+}
+
+.about .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+.about p {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.about button {
+    padding: 1% 1%;
+    color: black;
+    background-color: $accent;
+}

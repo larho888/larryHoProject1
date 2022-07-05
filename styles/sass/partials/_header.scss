@@ -1,0 +1,58 @@
+header {
+    background-color: $darkGreen;
+}
+
+
+.navBar {
+    background-color: $darkGreen;
+    padding: 1%;
+}
+
+.navBar a {
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTitle {
+    margin-right: 50px;
+    position: relative
+}
+
+.headerTitle img {
+    position: absolute;
+    left: -30px;
+    top: -10px;
+    width: 20%;
+}
+
+.navHome {
+    color: $accent;
+}
+
+.navBar h2 {
+    color: $whiteShade;
+}
+
+.headerImgContainer {
+    width: 35%;
+    max-width: 480px;
+    img {
+        position: relative;
+        top: 20px;
+        box-shadow: .8rem .8rem $solidWhite;
+    }
+}

@@ -1,0 +1,82 @@
+.favThings {
+    position: relative;
+}
+.favThings .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.favContainer1, .favContainer2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.favContainer1 {
+    position: relative;
+    top: -30px;
+}
+
+.favContainer2 {
+    position: relative;
+    top: 30px;
+}
+
+.favImgContainer1, .favImgContainer2 {
+    width: 40%;
+} 
+
+.favImgContainer1 {
+    margin-right: 10%;
+}
+
+.favImgContainer2 {
+    margin-left: 10%;
+}
+
+.favTextContainer1, .favTextContainer2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+} 
+
+.favTextContainer1 {
+    justify-content: flex-end;
+}
+
+.favTextContainer2 {
+    justify-content: flex-start;
+}
+
+.favThings .button {
+    width: 130px;
+}
+
+.favThings p {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.greenBox {
+    background-color: $green;
+    width: 100vw;
+    height: 50%;
+    left: -54%;
+    top: -3%;
+    position: absolute;
+}
+
+.darkGreenBox {
+    background-color: $darkGreen;
+    width: 100vw;
+    height: 50%;
+    right: -60%;
+    bottom: -10%;
+    position: absolute;
+}
