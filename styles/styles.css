@@ -105,6 +105,9 @@ header {
 .navBar {
   background-color: #345231;
   padding: 1%;
+    position: sticky;
+    top: 0;
+    z-index: 30;
 }
 
 .navBar a {
@@ -260,6 +263,7 @@ nav ul {
 
 .favImgContainer1, .favImgContainer2 {
   width: 40%;
+  z-index: 20;
 }
 
 .favImgContainer1 {
@@ -280,6 +284,7 @@ nav ul {
           flex-direction: column;
   width: 40%;
   height: 100%;
+  z-index: 20;
 }
 
 .favTextContainer1 {
