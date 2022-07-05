@@ -1,3 +1,15 @@
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    background-color: $solidWhite;
+    color: black;
+    z-index: 10;
+    &:focus{
+        left: 0;
+    }
+}
+
 header {
     background-color: $darkGreen;
 }
@@ -6,6 +18,9 @@ header {
 .navBar {
     background-color: $darkGreen;
     padding: 1%;
+    position: sticky;
+    top: 0;
+    z-index: 30;
 }
 
 .navBar a {
