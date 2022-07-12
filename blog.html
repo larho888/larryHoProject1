@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/d877b183e7.js" crossorigin="anonymous"></script>
+    <title>BLOG</title>
+</head>
+<body>
+    <a href="#mainContent" class="skip-link">Skip to main content.</a>
+    
+    <nav class="navBar navBarBlog">
+        <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><h2><a href="#" class="navWillow">WILLOW</a></h2></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li class="navHome"><a href="./contact.html">CONTACT</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>  
+    <header class="contactHeader">
+        <div class="wrapper">
+            <div class="contactTextContainer">
+                <h1>BLOG & NEWS</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="blogPage">
+        <div class="wrapper blogFlex">
+            <div class="leftBar">
+                <div class="blogAbout">
+                    <div class="blogImgContainer">
+                        <img src="./assets/blog-image-2.jpg" alt="Women looking towards you behind leaves">
+                    </div>
+                    <div class="blogTextContainer">
+                        <h3>ABOUT WILLOW</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio fugit delectus, fugiat labore pariatur quisquam!<a href="#">Find out more</a></p>
+                    </div>
+                </div>
+                <div class="blogRecent">
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Totam exercitationem nulla earum.</li>
+                        <li>Similique mollitia commodi incidunt!</li>
+                        <li>Dignissimos odio recusandae aperiam!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rightBar">
+                <div class="mainPost">
+                    <h2>MY FAVOURITE TRAVEL DESTINATIONS</h2>
+                    <p>Monday October 8th, 2018 by Willow</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae facere explicabo delectus porro reprehenderit vero eligendi ratione odio dolore?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere unde accusamus voluptate provident tempora dolor tenetur dicta facilis, neque possimus ullam, nihil mollitia laudantium eveniet nostrum, ratione deserunt. Perspiciatis?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, culpa autem sequi a amet facilis id iusto, aspernatur hic consectetur nesciunt alias esse libero quibusdam perspiciatis minima ab, earum accusantium saepe harum voluptatem ducimus quaerat odit. Mollitia libero perspiciatis quae, et neque, voluptate iure, impedit eveniet excepturi necessitatibus vel sapiente at iste fuga architecto officiis? Voluptatum, at exercitationem qui sed aut est totam unde quas quibusdam eius vero aperiam repudiandae excepturi necessitatibus labore tempore fugiat assumenda dolorum distinctio nisi! Accusamus, iste. Adipisci, labore ullam doloribus laborum nihil, odit recusandae sit illum odio numquam modi sunt aperiam, amet corrupti repellat error!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate soluta rerum pariatur ex vitae commodi fugiat sapiente iste omnis eum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quo eveniet magni voluptates odio doloribus excepturi nam, molestiae obcaecati mollitia molestias repudiandae totam sit eius explicabo consequuntur aut eaque dicta.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam eligendi, laudantium corrupti aliquam, nesciunt ullam id nemo voluptatem necessitatibus, veritatis nam nulla dolore placeat quaerat ut cupiditate temporibus. Sint facere similique quisquam rem ex. Accusantium cum consequuntur praesentium optio ipsa?</p>
+                </div>
+                <div class="firstComment comment">
+                    <div class="firstCommentImg commentImg">
+                        <img src="./assets/blog-image-3.jpg" alt="women with hat standing in front of leaves">
+                    </div>
+                    <div class="commentText">
+                        <p>Tuesday October 9th, 2018 by Bard</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi quod voluptatum commodi velit perferendis obcaecati quia iste eligendi maxime distinctio voluptates eius, rerum laboriosam fuga libero, pariatur totam blanditiis.</p>
+                    </div>
+
+                </div>
+                <div class="secondComment comment">
+                    <div class="secondCommentImg commentImg">
+                        <img src="./assets/blog-image-4.jpg" alt="man smiling with leaves in the background">
+                    </div>
+                    <div class="commentText secondCommentText">
+                        <p>Wednesday October 10th, 2018 by Daisy</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor earum deleniti, dolorem nisi eius cupiditate omnis ratione accusamus vero expedita error voluptatem provident consectetur! Necessitatibus delectus cupiditate doloremque eos facere.</p>
+                    </div>
+                </div>
+                <div class="contactFormBlog">
+                    <form action="">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" id="name" placeholder="Name" class="contactName"><!-- no whitespace
+                        --><label for="email" class="sr-only">Email</label><!-- no whitespace
+                        --><input type="email" id="email" placeholder="Email address"><!-- no whitespace
+                        --><textarea id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button type="submit" class="button">POST COMMENT</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <p>Copyright © 2018 HackerYou</p>
+        </div>
+    </footer>
+
+    <script src="blog.js"></script>
+
+</body>
+</html>

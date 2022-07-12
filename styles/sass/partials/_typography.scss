@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 125%;
+  }
+  
+  body {
+    // font-family: $bodyFont;
+    font-size: 1rem;
+    color: $primary;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: $heading;
+    font-weight: bold;
+  }
+
+  h1, h2, h3, h4, p {
+    color: $primary;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: $whiteShade;
+  }
+  
+  h2 {
+    font-size: calc(42/20)rem;
+  }
+  
+  h3 {
+    font-size: calc(42/32)rem;
+  }
+  
+  h4 {
+    font-size: calc(42/24);
+    color: $whiteShade;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  li {
+    font-family: $paragraph;
+    font-size: 1rem;
+    color: $whiteShade;
+  }
+
+  p {
+    font-family: $paragraph;
+    font-size: 1rem;
+  }
+
+  button {
+    font-family: $heading;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1% 1%;
+    color: black;
+    background-color: $accent;
+    border: 1px $accent solid;
+  }
+
+  .button {
+    font-family: $heading;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1% 1%;
+    color: black;
+    background-color: $accent;
+    border: 1px $accent solid;
+    width: 170px;
+  }
+
+  textarea, input {
+    font-family: $paragraph;
+  }
+
+
